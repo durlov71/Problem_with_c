@@ -6,3 +6,5 @@ int main()
     printf("%s\n",a);
     return 0;
 }
+// summary //
+//segmentation fault : string size  
