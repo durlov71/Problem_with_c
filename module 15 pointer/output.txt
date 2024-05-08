@@ -1,0 +1,4 @@
+main er x er address 0061FF1C
+fun er x er address 0061FF00
+ fun er x er value 300
+main er x er value 10
