@@ -1,5 +1,7 @@
 #include<stdio.h>
 
+// this is  -> call by value or pass by value
+
 void fun(int x){
     x=300;
     printf("fun er x er address %p\n",&x);
