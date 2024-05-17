@@ -1,13 +1,14 @@
 #include<stdio.h>
-int fun(int n){
-   int i=1;
-   while(i<=n){
+int fun(int x){
+   for(int i=1;i<x;i++){
     printf("%d ",i);
-    i++;
    }
+   printf("%d",x);
 }
 int main()
-{
-    fun(5);
+{   
+    int n;
+    scanf("%d",&n);
+    fun(n);
     return 0;
 }
